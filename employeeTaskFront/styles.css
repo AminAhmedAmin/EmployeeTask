@@ -1,0 +1,225 @@
+/* Reset some default styles */
+body, h1 {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply styles to the container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style the Add Employee button */
+#addButton {
+  display: inline;
+  margin-bottom: 20px;
+  background-color: #065b09;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+
+.pagination {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#prevPage ,#nextPage{
+  display: inline;
+  margin-bottom: 20px;
+  background-color: #5b4606;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+
+.updateBtn{
+ 
+  margin-bottom: 10px;
+
+  margin-right: 10px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+
+
+.deleteBtn{
+ 
+  margin-bottom: 20px;
+  background-color: #e60d0d;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+
+/* Style the table */
+.employee-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.employee-table th, .employee-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.employee-table th {
+  background-color: #f2f2f2;
+}
+
+/* Style the popup form */
+.popup {
+  display: none;
+  position: fixed;
+  width: 60%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+
+  
+  margin:  auto;
+  padding: 20px;
+ 
+}
+
+
+.Updateformpopub{
+  display: none;
+  position: fixed;
+  width: 60%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+
+  
+  margin:  auto;
+  padding: 20px;
+}
+
+
+.popup h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left:-3.5px;
+ 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  height: 100px;
+}
+
+.btn-submit {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+
+
+
+.btn-Close{
+
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff2600ce;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+
+}
+
+
+.btn-submit:hover {
+  background-color: #0056b3;
+}
+
+
+
+.btn-add-address {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.Updatebtn-submit{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+
+}
+
+
+.Updatebtn-Close{
+
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff2600ce;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+
+}
+
+/* Responsive design */
+
+@media screen and (max-width: 768px) {
+  .container {
+      padding: 10px;
+  }
+  .employee-table th, .employee-table td {
+      padding: 8px;
+  }
+}
